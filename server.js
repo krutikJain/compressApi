@@ -4,8 +4,9 @@ const ffmpeg = require('fluent-ffmpeg');
 const fs = require('fs');
 const path = require('path');
 const os = require('os');
+const ffmpegStatic = require('ffmpeg-static');
 
-ffmpeg.setFfmpegPath('/usr/bin/ffmpeg');
+ffmpeg.setFfmpegPath(ffmpegStatic);
 
 const app = express();
 const upload = multer({ dest: os.tmpdir() }); // Temporary directory for uploads
