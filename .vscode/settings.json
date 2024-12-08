@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/a9962d09-9f48-4aea-bac5-353b164c995e/resourceGroups/VideoCompressGroup/providers/Microsoft.Web/sites/VideoCompress",
+    "appService.deploySubpath": "src"
+}
